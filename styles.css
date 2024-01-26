@@ -1,0 +1,15 @@
+.container {
+    background-color: aqua;
+    border: 5px solid black;
+}
+.row {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 93);
+}
+ .alert-primary {
+    height: 40vh;
+ }
+
+ .row {
+    height: 40vh;
+ }
