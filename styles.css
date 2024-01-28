@@ -1,55 +1,122 @@
+/* CSS for container Div I use this to help me when laying the site out */
 .container {
-    background-color: aqua;
-    border: 5px solid black;
+    /* background-color: aqua;
+    border: 5px solid black; */
 }
+/* CSS target the class for row includes background color and height */
 .row {
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 0, 93);
+    /* border: 1px solid rgb(255, 0, 93); */
     height: auto;
-  
+   }
+/* CSS targets col-sm class includes margin top and a border 
+used when im laying the site out. */
+ .col-sm{
+    /* border: 1px solid rgb(255, 0, 93); */
+    margin-top: 4vh;
+}
+/* Targets the table inside the col-sm tag */
+.col-sm table {
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top:  4vh;
+}
+/* Targets the id given to the form tag  */
+#form {
+    /* width:40vw; */
  }
-
+ /* Targets the image of leo the pitbull on the second colum in the first row */
  .leo {
-    width: 30vw;
+    width: 35vw;
  }
-   
- .col-sm h1 {
+ /* Targets the class table and the viewport width     */
+ .table {
+    
+    width: 30vw; 
+    }
+ /* Targets the h1 tag nested inside the col-sm class */
+ col-sm h1 {
     color:#0f3647;
     margin: 25% 0% 0% 25%;
     font-size: 3em;
     text-align:left;
 }
+
+/* Targets the snippet to increase the size of "work of art" and adds a stroke to the font */
 #snippet {
-    font-size: 1.5em;
+    font-size: 1.6em;
+    color:#F7C59F;
+    -webkit-text-stroke-color: #004E89;
+    -webkit-text-stroke-width: .022em;
 }
-
+/* Targets the color of the row with the ID process and changes background color */
 #process{
-    background-color: #D6C89B;
+    background-color: #004E89;
+    
 }
-
+/* Targets all of the images located in the second row
+applies specific margins that centers the images and 
+applies a specific width */
 .image {
     /* width:5vw; */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 30%;
 }
-
+/* Targets the h3 tag and chages size, color and center align */
 h3 {
-color: rgb(255, 255, 255);
-text-align: center;
+    font-size: 1.5em;
+    color: #F7C59F  ;
+    text-align: center;
+   
 }
-
+/* Targets the paragraph tag under the images in the */
+/* second row changes size, color and applies center alignment */
 p {
-    color:white;
+    font-size:.9em ;
+    color:#ffffff;
     text-align: center;
 }
+/* Targets the footer and applies viewport height and color */
 footer {
-    background-color: black;
+    height:10vh;
+    background-color: #0f3647;
 }
-/* #leo {
-background-image: url(content/Leotransparent.gif);
-background-size: 65%;
-background-repeat: no-repeat;
+/* Targets the filler row and applies a height */
+#white{
+    height:3vh;
 
-} */
+}
+/* Targets the class form-group and adds a left margin located
+in the contact.html page */
+.form-group {
+    margin-left: 3vw;
+}
+/* Target the class row and add margin */
+.row h1{
+    margin-left: 3vw;
+}
+/* Targets form button and applies a viewport width */
+.btn-primary {
+    margin-left: 3vw;
+}
+/* Targets the h4 tag located in the table  */
+h4{
+    text-align: left;
+    margin-left: 3vw;
+}
+/* ID for the specific h4 tag in the table */
+#wh {
+text-align: center;    
+}
+footer {
+    color:#ffffff;
+    text-align: center;
+    vertical-align: auto;
+    
+}
+
+
