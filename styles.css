@@ -1,8 +1,8 @@
 /* CSS for container Div I use this to help me when laying the site out */
-.container {
+/* .container {
     /* background-color: aqua;
     border: 5px solid black; */
-}
+*/
 /* CSS target the class for row includes background color and height */
 .row {
     background-color: rgb(255, 255, 255);
@@ -21,10 +21,7 @@ used when im laying the site out. */
     margin-right:auto ;
     margin-top:  4vh;
 }
-/* Targets the id given to the form tag  */
-#form {
-    /* width:40vw; */
- }
+
  /* Targets the image of leo the pitbull on the second colum in the first row */
  .leo {
     width: 35vw;
